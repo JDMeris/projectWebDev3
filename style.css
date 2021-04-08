@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    position: relative;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#head_top {
+    background-color: #dc3545;
+    padding: 24px 140px;
+}
+
+#head_bottom {
+    background-color: white;
+    padding: 28px 140px;
+}
+
+#logo_head {
+    position: absolute;
+    left: 136px;
+    top: 17px;
+}
+
+.top_link {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.bottom_link {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    padding: 20px 5px;
+}
+
+.bottom_link:hover {
+    border-bottom: 3px solid red;
+}
+
+.background {
+    width: 1349px;
+    position: absolute;
+}
+
+.text {
+    font-weight: bolder;
+    text-align: left;
+    position: absolute;
+    top: 100%;
+    left: 100px;
+    color: white;
+    line-height: 50%;
+    font-size: 25px;
+}
+
+p {
+    font-weight: bold;
+    text-align: left;
+    top: 100%;
+    left: 100px;
+    color: white;
+    font-size: 15px;
+    line-height: 50%;
+}
+
+.buttonOne {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: white;
+    font-size: 11px;
+    font-weight: bolder;
+    margin: 4px 2px;
+    position: absolute;
+    left: 100px;
+    top: 840px;
+    
+}
+
+.buttonOne:hover {
+    background-color: #3e8e41
+}
+
+.button1 {
+    background-color: #971a28;
+    border-radius: 50px;
+}
+
+.shape {
+    font-size: 21px;
+    border-radius: 70px;
+    background: #7a7a7a;
+    padding: 30px; 
+    width: 700px;
+    height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 875px;
+    margin: auto;
+    left: 300px;
+}
+
+.buttonTwo {
+    font-size: 12px;
+    border-radius: 70px;
+    background: white;
+    padding: 15px;; 
+    width: 400px;
+    
+    text-align: left;
+    top: 889px;
+    left: 600px;
+    position: absolute;
+    border: none;
+}
+
+.buttonTwo:hover {
+    background-color: lightblue;
+}
